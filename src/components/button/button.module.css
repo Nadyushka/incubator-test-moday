@@ -1,0 +1,26 @@
+.button {
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: darkmagenta;
+}
+
+.buttonDisabled {
+    background-color: gray;
+    opacity: 0.6;
+    color: red;
+}
+
