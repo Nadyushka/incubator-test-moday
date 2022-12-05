@@ -25,7 +25,9 @@ function Notes() {
             </div>
             <h4>Notes:</h4>
             <div>
+
                 {notes.map(n => <p>{n}</p>)}
+                
             </div>
         </div>
     )
